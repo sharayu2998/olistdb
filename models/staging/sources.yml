@@ -19,7 +19,7 @@ sources:
             period: day
       - name: order_items
         identifier: order_items
-        # loaded_at_field: order_id
+        loaded_at_field: order_id
       - name: products
         identifier: products
       - name: payments
