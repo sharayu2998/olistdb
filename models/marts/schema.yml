@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: payment_filter
+    columns:
+      - name: payment_type
+        tests:
+          - accepted_values:
+              values: "{{ get_payment_methods() }}"
