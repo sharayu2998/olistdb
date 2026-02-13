@@ -6,7 +6,7 @@ sources:
     tables:
       - name: customers
         identifier: customers
-        # loaded_at_field: customer_id
+        loaded_at_field: customer_id
       - name: orders
         identifier: orders
         loaded_at_field: order_purchase_timestamp
